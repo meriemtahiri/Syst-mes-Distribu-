@@ -2,7 +2,14 @@ type Compte {
     code: ID,
     dateCreation: String,
     solde: Float,
-    type: String
+    type: String,
+    customer: Customer
+}
+
+type Customer {
+    id: ID,
+    name: String,
+    comptes: [Compte]
 }
 
 type Query {

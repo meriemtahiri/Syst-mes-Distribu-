@@ -1,5 +1,6 @@
 package com.tahiri.microservicerestconnector.DTOS;
 
+import com.tahiri.microservicerestconnector.ENTITIES.Customer;
 import com.tahiri.microservicerestconnector.ENUMS.AccountType;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -12,4 +13,5 @@ public class CompteDto {
     private String dateCreation;
     @Enumerated(EnumType.STRING)
     private AccountType type;
+    private CustomerDto customerDto;
 }

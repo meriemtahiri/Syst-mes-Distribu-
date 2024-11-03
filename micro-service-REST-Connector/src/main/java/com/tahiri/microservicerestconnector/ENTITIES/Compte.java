@@ -16,4 +16,6 @@ public class Compte {
     private Date dateCreation;
     @Enumerated(EnumType.STRING)
     private AccountType type;
+    @ManyToOne
+    private Customer customer;
 }

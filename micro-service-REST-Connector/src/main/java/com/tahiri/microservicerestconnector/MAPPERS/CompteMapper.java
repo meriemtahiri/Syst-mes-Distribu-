@@ -8,7 +8,6 @@ import org.mapstruct.Mapper;
 public interface CompteMapper {
 
     CompteDto toCompteDto(Compte compte);
-
     Compte toCompte(CompteDto compteDto);
 }
 
