@@ -60,11 +60,11 @@ then let's check them in the consul interface :
 ## Frontend
 
 <br>
-<img src="./frontend/demo/2.png" width="1000px">
+<img src="./demo/2.png" width="1000px">
 <br>
 
 <br>
-<img src="./frontend/demo/3.png" width="1000px">
+<img src="./demo/3.png" width="1000px">
 <br>
 
 <br>
