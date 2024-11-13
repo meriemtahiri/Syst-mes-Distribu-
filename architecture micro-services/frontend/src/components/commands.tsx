@@ -138,7 +138,7 @@ export default function Commands() {
       padding: '20px',
       boxSizing: 'border-box'
     }}>
-      <h1 style={{ marginBottom: '40px', textAlign: 'center' }}>Commands</h1>
+      <h1 style={{ marginTop: '40px', textAlign: 'center' }}>Commands</h1>
       <Table 
         columns={columns}
         dataSource={data}

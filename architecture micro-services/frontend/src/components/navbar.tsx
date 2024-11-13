@@ -1,49 +1,55 @@
 import React, { useState } from 'react';
 import { Menu } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
+import { TeamOutlined, AppstoreOutlined, MacCommandOutlined } from '@ant-design/icons';
+import Customers from './customers';
+import Products from './products';
+import Commands from './commands';
 
-const { SubMenu } = Menu;
 
-const Navbar: React.FC = () => {
-  const [current, setCurrent] = useState('mail');
+const Navbar = () => {
+  const [current, setCurrent] = useState('customers');
 
-  const handleClick = (e: unknown) => {
-    console.log('click ', e);
+  const handleClick = e => {
     setCurrent(e.key);
   };
 
+  const renderContent = () => {
+    switch (current) {
+      case 'customers':
+        return <Customers />;
+      case 'products':
+        return <Products />;
+      case 'commands':
+        return <Commands />;
+      default:
+        return null;
+    }
+  };
+
   return (
-    <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
-      <Menu.Item key="mail" icon={<MailOutlined />}>
-        Navigation One
-      </Menu.Item>
-      <Menu.Item key="app" icon={<AppstoreOutlined />} disabled>
-        Navigation Two
-      </Menu.Item>
-      <SubMenu
-        key="SubMenu"
-        title={
-          <span className="submenu-title-wrapper">
-            <SettingOutlined />
-            Navigation Three - Submenu
-          </span>
-        }
-      >
-        <Menu.ItemGroup title="Item 1">
-          <Menu.Item key="setting:1">Option 1</Menu.Item>
-          <Menu.Item key="setting:2">Option 2</Menu.Item>
-        </Menu.ItemGroup>
-        <Menu.ItemGroup title="Item 2">
-          <Menu.Item key="setting:3">Option 3</Menu.Item>
-          <Menu.Item key="setting:4">Option 4</Menu.Item>
-        </Menu.ItemGroup>
-      </SubMenu>
-      <Menu.Item key="alipay">
-        <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
-          Navigation Four - Link
-        </a>
-      </Menu.Item>
-    </Menu>
+    <>
+      <div style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
+        <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
+          <Menu.Item key="customers">
+            <TeamOutlined style={{ color: '#1DA57A', marginRight: '10px' }} />
+            Customers
+          </Menu.Item>
+          <Menu.Item key="products">
+            <AppstoreOutlined style={{ color: '#8A2BE2', marginRight: '10px' }} />
+            Products
+          </Menu.Item>
+          <Menu.Item key="commands">
+            <MacCommandOutlined style={{ color: '#1890FF', marginRight: '10px' }} />
+            Commands
+          </Menu.Item>
+        </Menu>
+      </div>
+      
+      {/* Render the selected component below the navbar */}
+      <div >
+        {renderContent()}
+      </div>
+    </>
   );
 };
 

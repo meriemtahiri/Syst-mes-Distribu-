@@ -76,7 +76,7 @@ export default function Products() {
       padding: '20px',
       boxSizing: 'border-box'
     }}>
-      <h1 style={{ marginBottom: '40px' , textAlign: 'center'}}>Products</h1>
+      <h1 style={{ marginTop: '40px' , textAlign: 'center'}}>Products</h1>
       <Table columns={columns}
       dataSource={data}
       pagination={{ pageSize: 7, position: ['bottomCenter'] }} 

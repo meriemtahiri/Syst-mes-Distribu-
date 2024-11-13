@@ -77,10 +77,10 @@ export default function Customers() {
       padding: '20px',
       boxSizing: 'border-box'
     }}>
-      <h1 style={{ marginBottom: '40px' , textAlign: 'center'}}>Customers</h1>
+      <h1 style={{ marginTop: '40px' , textAlign: 'center'}}>Customers</h1>
       <Table columns={columns}
       dataSource={data}
-      pagination={{ pageSize: 7, position: ['bottomCenter'] }} // Display 5 customers per page
+      pagination={{ pageSize: 7, position: ['bottomCenter'] }} // Display 7 customers per page
       />
     </div>
   );
