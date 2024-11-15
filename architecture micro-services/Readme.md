@@ -1,11 +1,11 @@
-# Micro Services Architecture-Consul-Config- Gateway-Feign-Resilience4J
+# Micro Services Architecture-Spring Cloud Gateway-Eureka Discovery
 
-orders - customers - products Microservices using Spring boot and consul.
+commands - customers - products Microservices.
 
 ## Table of contents
 
 - [Project Architecture](#project-architecture)
-- [Consul Disovery Service](#consul-disovery-service)
+- [Eureka Disovery Service](#eureka-discovery-service)
 - [command Service](#command-service)
 - [Frontend](#frontend)
 
@@ -19,19 +19,19 @@ In this project we have the following services:
     2. Product service :
         I will be here for handling CRUD operations for invoices ✔
 
-    2. Order service :
+    2. Command service :
         I will be here for handling CRUD operations for orders ✔
 
     3. OpenFeign :
         I will get customer and product details if any order ask me about them 🤷‍♂️
 
-    4. Consul Disovery Service :
+    4. Consul Discovery Service :
         I will holds the information about all other services 😎
 
     5. Gateway :
-        Your clients will send me their requests, then I will send it to the wanted service 😜
+        Your clients will send me their requests, then I will send it to the wanted service with the help of Discovery service 😜
 
-## Consul Disovery Service
+## Eureka Discovery Service
 
 <br>
 First, let's run our services :
@@ -53,11 +53,11 @@ then let's check them in the consul interface :
 <img src="./demo/commands.png" width="1000px">
 <br>
 
+## Frontend
+
 <br>
 <img src="./demo/1.png" width="1000px">
 <br>
-
-## Frontend
 
 <br>
 <img src="./demo/2.png" width="1000px">
