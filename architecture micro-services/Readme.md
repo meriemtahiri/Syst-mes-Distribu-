@@ -5,7 +5,7 @@ commands - customers - products Microservices.
 ## Table of contents
 
 - [Project Architecture](#project-architecture)
-- [Consul Disovery Service](#eureka-disovery-service)
+- [Eureka Disovery Service](#eureka-disovery-service)
 - [command Service](#command-service)
 - [Frontend](#frontend)
 
