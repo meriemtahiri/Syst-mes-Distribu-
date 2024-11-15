@@ -7,7 +7,7 @@
 |     -----------------    |        ----------------------------------     |       ---------      |
 |           1            |            BankAccount first microservice         | [:link:](micro-service-REST-Connector "") |
 |           2            |            architecture microservices         | [:link:](architecture%20micro-services "") |
-|           3            |            Spring Cloud Stream Functions-KAFKA         | [:link:](Spring%20Cloud%20Stream%20Functions-kafka "") |
-|           4            |            AXON-Event Sourcing and CQRS         | [:link:](axon-event%20sourcing-cqrs "") |
+|           3            |            Spring Cloud Stream Functions-KAFKA         | [:link:](Spring%20Cloud%20Stream%20Functions-KAFKA "") |
+|           4            |            AXON-Event Sourcing and CQRS         | [:link:](AXON-Event%20sourcing-CQRS "") |
 
 
