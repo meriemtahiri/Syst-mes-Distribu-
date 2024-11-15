@@ -1,4 +1,4 @@
-# Micro Services Architecture-Consul-Config- Gateway-Feign-Resilience4J
+# Micro Services Architecture-Eureka- Gateway-Feign-Resilience4J
 
 orders - customers - products Microservices using Spring boot and consul.
 
