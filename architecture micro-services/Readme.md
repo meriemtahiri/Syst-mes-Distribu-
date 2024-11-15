@@ -1,11 +1,11 @@
 # Micro Services Architecture-Eureka- Gateway-Feign-Resilience4J
 
-orders - customers - products Microservices using Spring boot and consul.
+commands - customers - products Microservices using Spring boot and Spring cloud.
 
 ## Table of contents
 
 - [Project Architecture](#project-architecture)
-- [Consul Disovery Service](#consul-disovery-service)
+- [Consul Disovery Service](#eureka-disovery-service)
 - [command Service](#command-service)
 - [Frontend](#frontend)
 
@@ -31,7 +31,7 @@ In this project we have the following services:
     5. Gateway :
         Your clients will send me their requests, then I will send it to the wanted service with the help of Discovery service 😜
 
-## Consul Discovery Service
+## Eureka Discovery Service
 
 <br>
 First, let's run our services :
