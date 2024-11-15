@@ -5,7 +5,7 @@ commands - customers - products Microservices.
 ## Table of contents
 
 - [Project Architecture](#project-architecture)
-- [Eureka Disovery Service](#eureka-disovery-service)
+- [Eureka Disovery Service](#eureka-discovery-service)
 - [command Service](#command-service)
 - [Frontend](#frontend)
 
@@ -53,11 +53,11 @@ then let's check them in the consul interface :
 <img src="./demo/commands.png" width="1000px">
 <br>
 
+## Frontend
+
 <br>
 <img src="./demo/1.png" width="1000px">
 <br>
-
-## Frontend
 
 <br>
 <img src="./demo/2.png" width="1000px">
