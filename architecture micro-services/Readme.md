@@ -1,6 +1,6 @@
-# Micro Services Architecture-Eureka- Gateway-Feign-Resilience4J
+# Micro Services Architecture-Spring Cloud Gateway-Eureka Discovery
 
-commands - customers - products Microservices using Spring boot and Spring cloud.
+commands - customers - products Microservices.
 
 ## Table of contents
 
