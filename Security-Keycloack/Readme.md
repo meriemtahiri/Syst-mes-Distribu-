@@ -61,24 +61,20 @@
 <img src="./9.png" width="1000px">
 <br>
 
-<br>
-<img src="./10.png" width="1000px">
-<br>
-
 ## Create roles
 
 <br>
-<img src="./11.png" width="1000px">
+<img src="./10.png" width="1000px">
 <br>
 
 ## Assign roles to users
 
 <br>
-<img src="./12.png" width="1000px">
+<img src="./11.png" width="1000px">
 <br>
 
 <br>
-<img src="./13.png" width="1000px">
+<img src="./12.png" width="1000px">
 <br>
 
 ## Tests with Postman
@@ -86,33 +82,33 @@
 #### Test authentication with password
 
 <br>
-<img src="./14" width="1000px">
+<img src="./13" width="1000px">
 <br>
 
 #### Analyze the contents of the two JWT Access Token and Refresh Token
 
 <br>
-<img src="./15.png" width="1000px">
+<img src="./14.png" width="1000px">
 <br>
 
 <br>
-<img src="./16.png" width="1000px">
+<img src="./15.png" width="1000px">
 <br>
 
 #### Test authentication with the Refresh Token
 
 <br>
-<img src="./17.png" width="1000px">
+<img src="./16.png" width="1000px">
 <br>
 
 #### Test authentication with Client ID and Client Secret
 
 <br>
-<img src="./screens/9-4-1.png" width="1000px">
+<img src="./17.png" width="1000px">
 <br>
 
 <br>
-<img src="./screens/9-4-2.png" width="1000px">
+<img src="./18.png" width="1000px">
 <br>
 
 <br>
