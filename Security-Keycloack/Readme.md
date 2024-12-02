@@ -118,7 +118,7 @@
 <img src="./19.png" width="1000px">
 <br>
 
-## Securing the Micro services architecture of the Customer-service, Inventory-service and Order-service project
+## Securing the Micro services architecture of the Customer-service, Inventory-service and Command-service project
 
 <br>
 <img src="./screens/partie2/1.png" width="1000px">
