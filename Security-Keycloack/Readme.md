@@ -16,7 +16,7 @@
 ## Download Keycloak
 
 <br>
-<img src="./screens/1.png" width="1000px">
+<img src="./1.png" width="1000px">
 <br>
 
 ## Start Keycloak
