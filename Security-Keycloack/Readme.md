@@ -22,63 +22,63 @@
 ## Start Keycloak
 
 <br>
-<img src="./screens/2.png" width="1000px">
+<img src="./2.png" width="1000px">
 <br>
 
 ## Create an Admin Account
 
 <br>
-<img src="./screens/3.png" width="1000px">
+<img src="./3.png" width="1000px">
 <br>
 
 ## Create Realm
 
 <br>
-<img src="./screens/4.png" width="1000px">
+<img src="./4.png" width="1000px">
 <br>
 
 ## Create a client to secure
 
 <br>
-<img src="./screens/5.png" width="1000px">
+<img src="./5.png" width="1000px">
 <br>
 
 <br>
-<img src="./screens/5-1.png" width="1000px">
+<img src="./6.png" width="1000px">
 <br>
 
 <br>
-<img src="./screens/5-2.png" width="1000px">
+<img src="./7.png" width="1000px">
 <br>
 
 ## Create users
 
 <br>
-<img src="./screens/6-1.png" width="1000px">
+<img src="./8.png" width="1000px">
 <br>
 
 <br>
-<img src="./screens/6-2.png" width="1000px">
+<img src="./9.png" width="1000px">
 <br>
 
 <br>
-<img src="./screens/6-3.png" width="1000px">
+<img src="./10.png" width="1000px">
 <br>
 
 ## Create roles
 
 <br>
-<img src="./screens/7.png" width="1000px">
+<img src="./11.png" width="1000px">
 <br>
 
 ## Assign roles to users
 
 <br>
-<img src="./screens/8-1.png" width="1000px">
+<img src="./12.png" width="1000px">
 <br>
 
 <br>
-<img src="./screens/8-2.png" width="1000px">
+<img src="./13.png" width="1000px">
 <br>
 
 ## Tests with Postman
@@ -86,23 +86,23 @@
 #### Test authentication with password
 
 <br>
-<img src="./screens/9-1.png" width="1000px">
+<img src="./14" width="1000px">
 <br>
 
 #### Analyze the contents of the two JWT Access Token and Refresh Token
 
 <br>
-<img src="./screens/9-2.png" width="1000px">
+<img src="./15.png" width="1000px">
 <br>
 
 <br>
-<img src="./screens/9-2-1.png" width="1000px">
+<img src="./16.png" width="1000px">
 <br>
 
 #### Test authentication with the Refresh Token
 
 <br>
-<img src="./screens/9-3.png" width="1000px">
+<img src="./17.png" width="1000px">
 <br>
 
 #### Test authentication with Client ID and Client Secret
