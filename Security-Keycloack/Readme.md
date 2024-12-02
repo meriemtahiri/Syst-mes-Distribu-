@@ -115,7 +115,7 @@
 #### Change Access Token and Refresh Token Token Settings
 
 <br>
-<img src="./screens/9-5.png" width="1000px">
+<img src="./19.png" width="1000px">
 <br>
 
 ## Securing the Micro services architecture of the Customer-service, Inventory-service and Order-service project
