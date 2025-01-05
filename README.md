@@ -1,5 +1,5 @@
 
-# Practical activities related to distributed systems and Big Data Processing Course taken in Higher Normal School of Technical Education Mohammedia Morocco 2022
+# Practical activities related to distributed systems and Big Data Processing Course taken in Higher Normal School of Technical Education Mohammedia Morocco 2024
 
 ## Table of Content
 
